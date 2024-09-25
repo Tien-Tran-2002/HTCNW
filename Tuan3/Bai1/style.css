@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(80, 165, 244, 0.721), rgba(38, 141, 215, 0.775));
+}
+
+/* Hearde */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 5px dotted white;
+}
+
+.header_menu_list {
+    display: flex;
+}
+
+.header_menu_item {
+    margin: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.header_title {
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.header_title h1 {
+    text-shadow: 5px 5px 10px rgb(46, 46, 203);
+}
+
+
+/* Main-container */
+
+.main {
+    display: flex;
+    margin: 30px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.main_form h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.main_form span {
+    font-size: 20px;
+}
+
+.main_form_input_item {
+    display: flex;
+    margin: 10px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.main_form_input_item h5 {
+    flex: 1;
+}
+
+.main_form_input_item input {
+   flex: 1;
+   height: 30px;
+   border-radius: 5px;
+   color: black;
+}
+
+.main_form_input_item select {
+    height: 25px;
+    border-radius: 5px;
+    width: 50px;
+    position: absolute;
+    left: 365px;
+    top: 255px;
+    color: black;
+}
+
+.main_form_input_submit {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main_form_input_submit input {
+    width: 50px;
+    margin: 5px
+}
+
+.box_input input {
+    height: 100px;
+}
+
+.main_title_1, .main_title_2 {
+    color: blue;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px ;
+}
+
+.main_title_1 {
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.main_title_2 {
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+
+.footer {
+    text-align: center;
+    border-top: 5px dotted white;
+    font-size: 20px;
+}
+
+.footer .p1 {
+    margin-top: 30px;
+}
+
