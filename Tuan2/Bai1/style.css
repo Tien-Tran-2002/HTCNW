@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+/* Header */
+.header_navbar {
+    background: white;
+    height: 110px;
+    width: 100%;
+}
+
+.header_navbar_title {
+    margin: 10px;
+}
+
+.header_navbar_text {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: red;
+}
+
+.header_navbar_menu {
+    padding: 10px;
+    width: 100%;
+    background-color: pink;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: pink;
+}
+
+.menu_list_item {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 30px;
+    background: pink;
+    color: white;
+    border-right: 1px solid black;
+}
+
+.input {
+    height: 30px;
+    border: 0px;
+}
+
+.button {
+    height: 20px;
+    width: 30px;
+}
+
+.menu_list_item:last-child {
+    border-right: none; /* Xóa đường viền của mục cuối cùng */
+}
+
+.header_navbar_logo {
+    width: 30px;
+    background: pink;
+}
+
+
+/* Main */
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr; /* Định nghĩa 3 cột với tỷ lệ 1:4:2 */
+    gap: 10px; /* Khoảng cách giữa các cột */
+    padding: 20px;
+}
+
+/* Left */
+.left-column {
+    grid-column: 1 / 2; /* Phần trái chiếm cột 1 */
+}
+
+.left_menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left_item {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.left_item_box {
+    background: pink;
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    border: 2px solid black;
+    border-radius: 100px / 50px; /* Tạo hình ellipse */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Middle */
+.middle-column {
+    grid-column: 2 / 3; /* Phần giữa chiếm cột 2 */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-main {
+    margin: 30px;
+}
+
+.middle-title {
+    font-size: 30px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background: pink;
+    color: red;
+}
+
+.middel-title-form {
+    width: 65%;
+}
+
+.middle-form {
+}
+
+.middle-input {
+    margin: 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+.input-form {
+    width: 45%;
+    height: 40px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+/* Right */
+.right-column {
+    grid-column: 3 / 4; /* Phần phải chiếm cột 3 */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-colum-title {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    background: black;
+}
+
+.right-colum-main {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+    background: black;
+}
+
+.text, .span {
+    background: black;
+}
+
+.right-colum-main1, .right-colum-main2 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px; /* Để các phần tử trong cột phải có bo góc nhẹ */
+}
+
+.right-colum-main img {
+    width: 100%;
+    height: auto; /* Đảm bảo ảnh không bị kéo dãn */
+    border-radius: 8px; /* Bo góc cho ảnh */
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background: pink;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
